@@ -1,0 +1,33 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:defaultValue="4"
+        android:inputType="number"
+        android:key="level_from"
+        android:text="3"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_from_level" />
+
+    <EditTextPreference
+        android:defaultValue="10"
+        android:inputType="number"
+        android:key="level_to"
+        android:text="12"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_to_level" />
+
+    <EditTextPreference
+        android:defaultValue="10"
+        android:inputType="number"
+        android:key="shuffle_intensity"
+        android:text="50"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_shuffle_intensity" />
+
+</PreferenceScreen>

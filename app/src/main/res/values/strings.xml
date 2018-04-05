@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Anagram Trainer</string>
+    <string name="start">Start</string>
+    <string name="check_answer">Check</string>
+    <string name="new_anagram">New Anagram</string>
+    <string name="hint">Hint</string>
+    <string name="settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+    <string name="pref_from_level">Level (from)[3–23]</string>
+    <string name="pref_to_level">Level (to) [4–24]</string>
+    <string name="pref_shuffle_intensity">Shuffle Intensity (percents)</string>
+</resources>
